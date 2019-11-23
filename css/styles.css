@@ -1,22 +1,45 @@
-                                   h1 {}
-                               
-                               .image {
-                                   border: 8px solid #6666ff;
-                                   padding: 5px;
-                                   margin: 5px;
-                                   background-color: cornsilk;
-                                   background-attachment: scroll;
-                                   text-align: left;
-                                   color: purple;
-                                   font-family: sans-serif;
-                                   font-style: oblique;
-                                   float: left;
-                               }
-                               
-                               @media screen and (min-width: 768px) {
-                                   body {
-                                       background-color: wheat;
-                                   }
-                                   .all {
-                                       margin: 20px;
-                                   }
+     h1 {
+         text-align: right;
+         color: purple;
+         font-family: sans-serif;
+         font-style: oblique;
+         float: right;
+         clear: right;
+         padding: 4px;
+         margin: 5px;
+     }
+     
+     h2 {
+         text-align: left;
+     }
+     
+     img {
+         border: 10px solid rgb(78, 66, 70);
+         padding: 2px;
+         margin: 5px;
+         background-attachment: fixed;
+         float: left;
+     }
+     
+     @media screen and (min-width: 768px) {
+         body {
+             background-image: "kayr.jpg";
+         }
+         .container {
+             border: 5px solid peru;
+         }
+     }
+     
+     .column1 {
+         float: right;
+         width: 50%;
+         padding: 0px;
+         height: 100px;
+     }
+     
+     .column2 {
+         float: left;
+         width: 50%;
+         padding: 0px;
+         height: 100px;
+     }
