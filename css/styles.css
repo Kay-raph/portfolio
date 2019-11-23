@@ -1,12 +1,14 @@
-     h1 {
+     .H1 {
          text-align: right;
-         color: purple;
+         color: plum;
          font-family: sans-serif;
          font-style: oblique;
          float: right;
          clear: right;
-         padding: 4px;
+         padding: 2px;
          margin: 5px;
+         border: 10px solid plum;
+         background-color: rgb(78, 66, 70);
      }
      
      h2 {
@@ -17,29 +19,15 @@
          border: 10px solid rgb(78, 66, 70);
          padding: 2px;
          margin: 5px;
-         background-attachment: fixed;
+         background-attachment: scroll;
          float: left;
      }
      
-     @media screen and (min-width: 768px) {
-         body {
-             background-image: "kayr.jpg";
-         }
-         .container {
-             border: 5px solid peru;
-         }
-     }
-     
-     .column1 {
-         float: right;
-         width: 50%;
-         padding: 0px;
-         height: 100px;
-     }
-     
-     .column2 {
-         float: left;
-         width: 50%;
-         padding: 0px;
-         height: 100px;
+     body {
+         -webkit-column-count: 3;
+         /* Old Chrome, Safari and Opera */
+         -moz-column-count: 2;
+         /* Old Firefox */
+         column-count: 2;
+         margin: 20px;
      }
