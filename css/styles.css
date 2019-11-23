@@ -1,8 +1,21 @@
 h1 {
-    text-align:right;
-    float:right;
+    text-align: right;
+    color: purple;
+    font-family: sans-serif;
+    font-style: oblique;
+    float: right;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
-.image{
-     border: 8px solid #6666ff;
-  padding: 5px;
+
+.image {
+    border: 8px solid #6666ff;
+    padding: 5px;
+    background-color: cornsilk;
+}
+
+.style {
+    background-style: scroll;
 }
