@@ -1,4 +1,4 @@
-h1 {
+    h1 {
     text-align: right;
     color: purple;
     font-family: sans-serif;
@@ -14,8 +14,14 @@ h1 {
     border: 8px solid #6666ff;
     padding: 5px;
     background-color: cornsilk;
+    background-attachment: scroll;
 }
 
 .style {
     background-style: scroll;
 }
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: wheat;
+    }
