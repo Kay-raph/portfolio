@@ -100,7 +100,7 @@ div {
   width: cover;
   height: auto;
 
-  background-color: wheat;
+  background-color: white;
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
   animation-name: example;
@@ -109,12 +109,12 @@ div {
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
-  from {background-color: wheat;}
-  to {background-color: yellow;}
+  from {background-color: yellow;}
+  to {background-color: white;}
 }
 
 /* Standard syntax */
 @keyframes example {
-  from {background-color: wheat;}
-  to {background-color: yellow;}
+  from {background-color: yellow;}
+  to {background-color: white;}
 }
