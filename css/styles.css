@@ -1,35 +1,50 @@
-     .H1 {
-         text-align: right;
-         color: blue;
-         font-family: sans-serif;
-         font-style: oblique;
-         float: right;
-         clear: right;
-         padding: 2px;
-         margin: 2px;
-         border: 10px solid blue;
-         background-color: wheat;
-     }
+img{
+  border-radius: 50%;
+  position: relative 400px;
+  width: 250px;
+  height: 250px;
+  max-width: 95%;
+  max-height: auto;
+  border-style: dotted solid double;
+ border-width: thick;
+}
+h1{
+  text-align: left;
+  margin: 10px;
+}
+.header{
+  position: relative;
 
-     h2 {
+  margin: 10px;
+}
+      h2 {
          text-align: left;
-     }
 
-     img {
-         border: 10px solid rgb(78, 66, 70);
-         padding: 2px;
-         margin: 5px;
-         background-attachment: scroll;
-         float: left;
+     }
+     .column1{
+       position: relative;
+       margin: 10px;
+     }
+     .column2{
+        position: relative;
+        margin: 10px;
+
      }
 
      body {
-         -webkit-column-count: 3;
+         -webkit-column-count: 4;
          /* Old Chrome, Safari and Opera */
-         -moz-column-count: 2;
+         -moz-column-count: 3;
          /* Old Firefox */
-         column-count: 2;
-         margin: 20px;
+         column-count: 4;
+         margin: 10px;
+         -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 20px; /* Firefox */
+  column-gap: 20px;
+
+  -webkit-column-rule: 4px double #ff00ff; /* Chrome, Safari, Opera */
+  -moz-column-rule: 4px double #ff00ff; /* Firefox */
+  column-rule: 4px double #ff00ff;
      }
 
      .all {
@@ -39,12 +54,67 @@
        color: brown;
    font-weight: bolder;
    font-size: x-large;
+   border: 10px;
      }
      .bolden{
        color: blue;
        font-style: bolder;
+       border: 10px;
      }
      a{
        font-style: italic;
        color: solid plum;
+       margin: 10px;
      }
+     .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-cloud {
+  background: #ff5500;
+  color: white;
+  width: 50px;
+}
+div {
+  width: cover;
+  height: auto;
+
+  background-color: wheat;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 8s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: wheat;}
+  to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: wheat;}
+  to {background-color: yellow;}
+}
