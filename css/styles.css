@@ -42,7 +42,7 @@
      }
      .bolden{
        color: blue;
-       font-style: italic;
+       font-style: bolder;
      }
      a{
        font-style: italic;
