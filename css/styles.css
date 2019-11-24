@@ -19,6 +19,7 @@ h1{
 }
   h2 {
          text-align: left;
+         font-size: 16px;
 
      }
      .yote{
@@ -64,7 +65,7 @@ h1{
      .cut{
        color: brown;
    font-weight: bolder;
-   font-size: x-large;
+   font-size: large;
    border: 10px;
      }
      .bolden{
@@ -107,21 +108,21 @@ h1{
   color: white;
   width: 50px;
 }
-div {
+html {
   width: cover;
   height: auto;
 
   background-color: white;
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: s; /* Safari 4.0 - 8.0 */
   animation-name: example;
-  animation-duration: 8s;
+  animation-duration: 10s;
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
   from {background-color: yellow;}
-  to {background-color: white;}
+  to {background-color: wheat;}
 }
 
 /* Standard syntax */
