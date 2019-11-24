@@ -1,20 +1,20 @@
      .H1 {
          text-align: right;
-         color: plum;
+         color: blue;
          font-family: sans-serif;
          font-style: oblique;
          float: right;
          clear: right;
          padding: 2px;
          margin: 2px;
-         border: 10px solid plum;
-         background-color: rgb(78, 66, 70);
+         border: 10px solid blue;
+         background-color: wheat;
      }
-     
+
      h2 {
          text-align: left;
      }
-     
+
      img {
          border: 10px solid rgb(78, 66, 70);
          padding: 2px;
@@ -22,7 +22,7 @@
          background-attachment: scroll;
          float: left;
      }
-     
+
      body {
          -webkit-column-count: 3;
          /* Old Chrome, Safari and Opera */
@@ -30,4 +30,21 @@
          /* Old Firefox */
          column-count: 2;
          margin: 20px;
+     }
+
+     .all {
+         background-color: blue;
+     }
+     .cut{
+       color: brown;
+   font-weight: bolder;
+   font-size: x-large;
+     }
+     .bolden{
+       color: blue;
+       font-style: italic;
+     }
+     a{
+       font-style: italic;
+       color: solid plum;
      }
