@@ -17,18 +17,26 @@ h1{
 
   margin: 10px;
 }
-      h2 {
+  h2 {
          text-align: left;
 
      }
-     .column1{
+.column1{
        position: relative;
        margin: 10px;
      }
-     .column2{
+.column2{
         position: relative;
         margin: 10px;
 
+     }
+     .int{
+       font-weight: bolder;
+       color: brown;
+     }
+     .cont{
+       font-weight: bolder;
+       color: lime;
      }
 
      body {
