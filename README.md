@@ -9,5 +9,5 @@
 <p>One major thing that i think makes my project stand out is the fact that i have utilized most styling effects for both background color animation and vivid description of what i do.</p>
 <h4><b>Project Contributors<h4></b>
 <p>Apparently i am the only contributor of the project as of now but am open to code contribution via dreamviewer</p>
-  <b><p>Live Link</p></b>
+  <b><p><h5>Live Link</h5></p></b>
   <p>Here is a link to my github page https://kay-raph.github.io/portfolio/</p>
